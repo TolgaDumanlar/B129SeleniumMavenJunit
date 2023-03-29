@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="32b04b29-64b6-47ba-a98d-e8c36721790a" name="Changes" comment="" />
+    <list default="true" id="32b04b29-64b6-47ba-a98d-e8c36721790a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/day06/C01_MavenIlkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day06/C02_MavenClassWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day07/C01_JUnitIlkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day07/C02_BeforeAfter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day07/C03_BeforeAfter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day07/C04_BeforeClassAfterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day07/C05_ClassWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_02_practice/C01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_02_practice/C02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2NZEwrGDT27EZvxuuUSDWAVgMUX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -16,12 +42,101 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="JUnit.C05_ClassWork">
+    <configuration name="C02_BeforeAfter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129SeleniumMavenJunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day07" />
+      <option name="MAIN_CLASS_NAME" value="day07.C02_BeforeAfter" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_BeforeAfter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129SeleniumMavenJunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day07" />
+      <option name="MAIN_CLASS_NAME" value="day07.C03_BeforeAfter" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_BeforeClassAfterClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129SeleniumMavenJunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day07" />
+      <option name="MAIN_CLASS_NAME" value="day07.C04_BeforeClassAfterClass" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C05_ClassWork" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129SeleniumMavenJunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day07" />
+      <option name="MAIN_CLASS_NAME" value="day07.C05_ClassWork" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_JUnitIlkTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B129SeleniumMavenJunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day07" />
+      <option name="MAIN_CLASS_NAME" value="day07.C01_JUnitIlkTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.C05_ClassWork" />
+        <item itemvalue="JUnit.C04_BeforeClassAfterClass" />
+        <item itemvalue="JUnit.C03_BeforeAfter" />
+        <item itemvalue="JUnit.C02_BeforeAfter" />
+        <item itemvalue="TestNG.C01_JUnitIlkTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,5 +147,16 @@
       <updated>1679863448727</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

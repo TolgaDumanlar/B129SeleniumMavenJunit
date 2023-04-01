@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b04b29-64b6-47ba-a98d-e8c36721790a" name="Changes" comment="V1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day09_dropdown/C02_TestBaseDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day09_dropdown_alerts/C03_Alerts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day08/C02_DropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day08/C02_DropDown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day09_dropdown/C01_DropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day09_dropdown/C01_DropDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day09_dropdown/C01_DropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day09_dropdown_alerts/C01_DropDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day09_dropdown/C02_TestBaseDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day09_dropdown_alerts/C02_TestBaseDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +46,12 @@
       <module name="B129SeleniumMavenJunit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09_dropdown.*" />
+          <option name="PATTERN" value="day09_dropdown_alerts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="day09_dropdown" />
-      <option name="MAIN_CLASS_NAME" value="day09_dropdown.C02_TestBaseDemo" />
+      <option name="MAIN_CLASS_NAME" value="day09_dropdown_alerts.C02_TestBaseDemo" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -187,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680376523323</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="V1">
+      <created>1680380727010</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680380727010</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

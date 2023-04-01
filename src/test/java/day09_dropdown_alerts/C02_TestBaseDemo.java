@@ -1,4 +1,4 @@
-package day09_dropdown;
+package day09_dropdown_alerts;
 import org.junit.Assert;
 import org.junit.Test;
 import utilities.TestBase;

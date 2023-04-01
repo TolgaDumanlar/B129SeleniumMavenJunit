@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b04b29-64b6-47ba-a98d-e8c36721790a" name="Changes" comment="V1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day06_27_03_exercise/E02_Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day07_28_03_23_exercise/E01_JUnit_Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day07_28_03_23_exercise/E02_BeforeAfter_Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day07_28_03_23_exercise/E03_BeforeClassAfterClass_Exercise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +41,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.E02_Exercise">
+  <component name="RunManager" selected="JUnit.E02_BeforeAfter_Exercise">
     <configuration name="C01_MavenIlkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day06.C01_MavenIlkTest" />
       <module name="B129SeleniumMavenJunit" />
@@ -79,45 +81,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_DropDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="E01_JUnit_Exercise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129SeleniumMavenJunit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.*" />
+          <option name="PATTERN" value="day07_28_03_23_exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day08" />
-      <option name="MAIN_CLASS_NAME" value="day08.C02_DropDown" />
+      <option name="PACKAGE_NAME" value="day07_28_03_23_exercise" />
+      <option name="MAIN_CLASS_NAME" value="day07_28_03_23_exercise.E01_JUnit_Exercise" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_DropDown" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="E02_BeforeAfter_Exercise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129SeleniumMavenJunit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.*" />
+          <option name="PATTERN" value="day07_28_03_23_exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day08" />
-      <option name="MAIN_CLASS_NAME" value="day08.C02_DropDown" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="day07_28_03_23_exercise" />
+      <option name="MAIN_CLASS_NAME" value="day07_28_03_23_exercise.E02_BeforeAfter_Exercise" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.E02_BeforeAfter_Exercise" />
+        <item itemvalue="JUnit.E01_JUnit_Exercise" />
         <item itemvalue="Application.E02_Exercise" />
         <item itemvalue="Application.E01_Exercise" />
         <item itemvalue="Application.C01_MavenIlkTest" />
-        <item itemvalue="JUnit.C02_DropDown" />
-        <item itemvalue="TestNG.C02_DropDown" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680267187660</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="V1">
+      <created>1680268845642</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680268845642</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -70,4 +70,5 @@ public class C02_DropDown {
         //Tavsiye edilen
         stateList.forEach(t -> System.out.println(t.getText()));
     }
+
 }

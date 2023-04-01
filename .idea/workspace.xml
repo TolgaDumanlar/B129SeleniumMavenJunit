@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b04b29-64b6-47ba-a98d-e8c36721790a" name="Changes" comment="V1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day09_dropdown/C01_DropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day09_dropdown/C02_TestBaseDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day08/C02_DropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day08/C02_DropDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day09_dropdown/C01_DropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day09_dropdown/C01_DropDown.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,16 +42,19 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.E04_Exercise">
-    <configuration name="E02_Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day06_27_03_exercise.E02_Exercise" />
+  <component name="RunManager" selected="JUnit.C02_TestBaseDemo.test01">
+    <configuration name="C02_TestBaseDemo.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129SeleniumMavenJunit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day06_27_03_exercise.*" />
+          <option name="PATTERN" value="day09_dropdown.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="day09_dropdown" />
+      <option name="MAIN_CLASS_NAME" value="day09_dropdown.C02_TestBaseDemo" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C02_TestBaseDemo.test01" />
         <item itemvalue="JUnit.E04_Exercise" />
         <item itemvalue="JUnit.E03_BeforeClassAfterClass_Exercise" />
         <item itemvalue="JUnit.E02_BeforeAfter_Exercise" />
         <item itemvalue="JUnit.E01_JUnit_Exercise" />
-        <item itemvalue="Application.E02_Exercise" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680362333151</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="V1">
+      <created>1680376523323</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680376523323</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

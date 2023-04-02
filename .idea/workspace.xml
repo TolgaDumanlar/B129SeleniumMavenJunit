@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b04b29-64b6-47ba-a98d-e8c36721790a" name="Changes" comment="V1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day08_29_03_23_exercise/E02_DropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day08_30_03_23_exercise_persembe/E03_DropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day08_30_03_23_exercise_persembe/E04_AmazonDropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day09_01_04_cumartesi_dropdown_alerts/E01_DropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day09_01_04_cumartesi_dropdown_alerts/E02_TestBaseDemoExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day09_01_04_cumartesi_dropdown_alerts/E03_Alerts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day08_29_03_23_exercise_persembe/E01_Assertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day08_30_03_23_exercise_persembe/E01_Assertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day08_29_03_23_exercise_persembe/E02_DropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day08_30_03_23_exercise_persembe/E02_DropDown.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,81 +45,82 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.E02_DropDown.getOptions">
-    <configuration name="E01_Assertion.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.E03_Alerts.dismissAlert">
+    <configuration name="E01_DropDown.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129SeleniumMavenJunit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08_29_03_23_exercise_persembe.*" />
+          <option name="PATTERN" value="day09_01_04_cumartesi_dropdown_alerts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day08_29_03_23_exercise" />
-      <option name="MAIN_CLASS_NAME" value="day08_29_03_23_exercise_persembe.E01_Assertion" />
-      <option name="METHOD_NAME" value="test04" />
+      <option name="PACKAGE_NAME" value="day09_01_04_cumartesi_dropdown_alerts" />
+      <option name="MAIN_CLASS_NAME" value="day09_01_04_cumartesi_dropdown_alerts.E01_DropDown" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E02_DropDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="E02_TestBaseDemoExercise.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129SeleniumMavenJunit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08_29_03_23_exercise_persembe.*" />
+          <option name="PATTERN" value="day09_01_04_cumartesi_dropdown_alerts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day08_29_03_23_exercise" />
-      <option name="MAIN_CLASS_NAME" value="day08_29_03_23_exercise_persembe.E02_DropDown" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E02_DropDown.getOptions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129SeleniumMavenJunit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day08_29_03_23_exercise_persembe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day08_29_03_23_exercise" />
-      <option name="MAIN_CLASS_NAME" value="day08_29_03_23_exercise_persembe.E02_DropDown" />
-      <option name="METHOD_NAME" value="getOptions" />
+      <option name="PACKAGE_NAME" value="day09_01_04_cumartesi_dropdown_alerts" />
+      <option name="MAIN_CLASS_NAME" value="day09_01_04_cumartesi_dropdown_alerts.E02_TestBaseDemoExercise" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E02_DropDown.selectByIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="E03_Alerts.acceptAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129SeleniumMavenJunit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08_29_03_23_exercise_persembe.*" />
+          <option name="PATTERN" value="day09_01_04_cumartesi_dropdown_alerts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day08_29_03_23_exercise" />
-      <option name="MAIN_CLASS_NAME" value="day08_29_03_23_exercise_persembe.E02_DropDown" />
-      <option name="METHOD_NAME" value="selectByIndex" />
+      <option name="PACKAGE_NAME" value="day09_01_04_cumartesi_dropdown_alerts" />
+      <option name="MAIN_CLASS_NAME" value="day09_01_04_cumartesi_dropdown_alerts.E03_Alerts" />
+      <option name="METHOD_NAME" value="acceptAlert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E02_DropDown.selectByValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="E03_Alerts.dismissAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129SeleniumMavenJunit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08_29_03_23_exercise_persembe.*" />
+          <option name="PATTERN" value="day09_01_04_cumartesi_dropdown_alerts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day08_29_03_23_exercise" />
-      <option name="MAIN_CLASS_NAME" value="day08_29_03_23_exercise_persembe.E02_DropDown" />
-      <option name="METHOD_NAME" value="selectByValue" />
+      <option name="PACKAGE_NAME" value="day09_01_04_cumartesi_dropdown_alerts" />
+      <option name="MAIN_CLASS_NAME" value="day09_01_04_cumartesi_dropdown_alerts.E03_Alerts" />
+      <option name="METHOD_NAME" value="dismissAlert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E04_AmazonDropDown.dropDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129SeleniumMavenJunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day08_30_03_23_exercise_persembe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day08_30_03_23_exercise_persembe" />
+      <option name="MAIN_CLASS_NAME" value="day08_30_03_23_exercise_persembe.E04_AmazonDropDown" />
+      <option name="METHOD_NAME" value="dropDown" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.E02_DropDown.getOptions" />
-        <item itemvalue="JUnit.E02_DropDown" />
-        <item itemvalue="JUnit.E02_DropDown.selectByValue" />
-        <item itemvalue="JUnit.E02_DropDown.selectByIndex" />
-        <item itemvalue="JUnit.E01_Assertion.test04" />
+        <item itemvalue="JUnit.E03_Alerts.dismissAlert" />
+        <item itemvalue="JUnit.E03_Alerts.acceptAlert" />
+        <item itemvalue="JUnit.E02_TestBaseDemoExercise.test01" />
+        <item itemvalue="JUnit.E01_DropDown.test01" />
+        <item itemvalue="JUnit.E04_AmazonDropDown.dropDown" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680426412597</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="V1">
+      <created>1680428443120</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680428443120</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,5 +239,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="V1" />
     <option name="LAST_COMMIT_MESSAGE" value="V1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/day09_01_04_cumartesi_dropdown_alerts/E03_Alerts.java</url>
+          <line>10</line>
+          <properties class="day09_01_04_cumartesi_dropdown_alerts.E03_Alerts" method="acceptAlert">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

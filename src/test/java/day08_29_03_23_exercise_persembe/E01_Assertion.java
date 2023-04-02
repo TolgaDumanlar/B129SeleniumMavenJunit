@@ -1,7 +1,6 @@
-package day08_29_03_23_exercise;
+package day08_29_03_23_exercise_persembe;
 
 import org.junit.After;
-import org.junit.*;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;

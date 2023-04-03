@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b04b29-64b6-47ba-a98d-e8c36721790a" name="Changes" comment="V1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day08_30_03_23_exercise_persembe/E03_DropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day08_30_03_23_exercise_persembe/E04_AmazonDropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day09_01_04_cumartesi_dropdown_alerts/E01_DropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day09_01_04_cumartesi_dropdown_alerts/E02_TestBaseDemoExercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day09_01_04_cumartesi_dropdown_alerts/E03_Alerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day10_alert_iframe/C01_AlertMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day10_alert_iframe/C02_Iframe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day11_IFrame_WindowHandle/C01_IFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day11_IFrame_WindowHandle/C02_WindowHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day11_IFrame_WindowHandle/C03_WindowHandle2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day08_29_03_23_exercise_persembe/E01_Assertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day08_30_03_23_exercise_persembe/E01_Assertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day08_29_03_23_exercise_persembe/E02_DropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day08_30_03_23_exercise_persembe/E02_DropDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day09_dropdown_alerts/C03_Alerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day09_dropdown_alerts/C03_Alerts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,18 +45,34 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.E03_Alerts.dismissAlert">
-    <configuration name="E01_DropDown.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C03_WindowHandle2.newWindowTest">
+    <configuration name="C03_Alerts.sendKeysAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129SeleniumMavenJunit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09_01_04_cumartesi_dropdown_alerts.*" />
+          <option name="PATTERN" value="day09_dropdown_alerts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day09_01_04_cumartesi_dropdown_alerts" />
-      <option name="MAIN_CLASS_NAME" value="day09_01_04_cumartesi_dropdown_alerts.E01_DropDown" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="day09_dropdown_alerts" />
+      <option name="MAIN_CLASS_NAME" value="day09_dropdown_alerts.C03_Alerts" />
+      <option name="METHOD_NAME" value="sendKeysAlert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_WindowHandle2.newWindowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129SeleniumMavenJunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day11_IFrame_WindowHandle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day11_IFrame_WindowHandle" />
+      <option name="MAIN_CLASS_NAME" value="day11_IFrame_WindowHandle.C03_WindowHandle2" />
+      <option name="METHOD_NAME" value="newWindowTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,29 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E04_AmazonDropDown.dropDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129SeleniumMavenJunit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day08_30_03_23_exercise_persembe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day08_30_03_23_exercise_persembe" />
-      <option name="MAIN_CLASS_NAME" value="day08_30_03_23_exercise_persembe.E04_AmazonDropDown" />
-      <option name="METHOD_NAME" value="dropDown" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C03_WindowHandle2.newWindowTest" />
+        <item itemvalue="JUnit.C03_Alerts.sendKeysAlert" />
         <item itemvalue="JUnit.E03_Alerts.dismissAlert" />
         <item itemvalue="JUnit.E03_Alerts.acceptAlert" />
         <item itemvalue="JUnit.E02_TestBaseDemoExercise.test01" />
-        <item itemvalue="JUnit.E01_DropDown.test01" />
-        <item itemvalue="JUnit.E04_AmazonDropDown.dropDown" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680428443120</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="V1">
+      <created>1680444509733</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680444509734</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,20 +246,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="V1" />
     <option name="LAST_COMMIT_MESSAGE" value="V1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/day09_01_04_cumartesi_dropdown_alerts/E03_Alerts.java</url>
-          <line>10</line>
-          <properties class="day09_01_04_cumartesi_dropdown_alerts.E03_Alerts" method="acceptAlert">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

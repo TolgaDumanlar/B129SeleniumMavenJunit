@@ -1,8 +1,9 @@
 package day07;
 
+import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.testng.annotations.Test;
+
 
 import java.time.Duration;
 

@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b04b29-64b6-47ba-a98d-e8c36721790a" name="Changes" comment="V1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day10_alert_iframe/C01_AlertMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day10_alert_iframe/C02_Iframe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day11_IFrame_WindowHandle/C01_IFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day11_IFrame_WindowHandle/C02_WindowHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day11_IFrame_WindowHandle/C03_WindowHandle2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_03_practice/C01_DropDownMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_03_practice/C02_DropDownOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_03_practice/C03_CheckBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_03_practice/C04_RadioButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day09_dropdown_alerts/C03_Alerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day09_dropdown_alerts/C03_Alerts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day07/C01_JUnitIlkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day07/C01_JUnitIlkTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +44,38 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C03_WindowHandle2.newWindowTest">
+  <component name="RunManager" selected="JUnit.C01_DropDownMenu">
+    <configuration name="C01_DropDownMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129SeleniumMavenJunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day_03_practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day_03_practice" />
+      <option name="MAIN_CLASS_NAME" value="day_03_practice.C01_DropDownMenu" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_DropDownMenu.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129SeleniumMavenJunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day_03_practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day_03_practice" />
+      <option name="MAIN_CLASS_NAME" value="day_03_practice.C01_DropDownMenu" />
+      <option name="METHOD_NAME" value="name" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C03_Alerts.sendKeysAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129SeleniumMavenJunit" />
       <extension name="coverage">
@@ -78,38 +108,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E02_TestBaseDemoExercise.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129SeleniumMavenJunit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day09_01_04_cumartesi_dropdown_alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day09_01_04_cumartesi_dropdown_alerts" />
-      <option name="MAIN_CLASS_NAME" value="day09_01_04_cumartesi_dropdown_alerts.E02_TestBaseDemoExercise" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E03_Alerts.acceptAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129SeleniumMavenJunit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day09_01_04_cumartesi_dropdown_alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day09_01_04_cumartesi_dropdown_alerts" />
-      <option name="MAIN_CLASS_NAME" value="day09_01_04_cumartesi_dropdown_alerts.E03_Alerts" />
-      <option name="METHOD_NAME" value="acceptAlert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="E03_Alerts.dismissAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129SeleniumMavenJunit" />
       <extension name="coverage">
@@ -128,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C01_DropDownMenu" />
+        <item itemvalue="JUnit.C01_DropDownMenu.name" />
         <item itemvalue="JUnit.C03_WindowHandle2.newWindowTest" />
         <item itemvalue="JUnit.C03_Alerts.sendKeysAlert" />
         <item itemvalue="JUnit.E03_Alerts.dismissAlert" />
-        <item itemvalue="JUnit.E03_Alerts.acceptAlert" />
-        <item itemvalue="JUnit.E02_TestBaseDemoExercise.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680444509734</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="V1">
+      <created>1680516323985</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680516323986</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -10,6 +10,9 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
+
 public abstract class TestBase {
     //TestBase class'ından Obje oluşturmanın önüne geçilmesi için abstract yapılabilir
     //Orn: TestBase base = new TestBase()
@@ -73,4 +76,15 @@ public abstract class TestBase {
         select.selectByValue(secenek);
     }
 
-}
+//SwitchTo: Sayfalar arası geçiş methodu:
+    //Indeks 0'dan başlar
+    //Girilen indeksteki windowHandle değerini alarak o sayfaya geçiş yapar.
+    public static void switchToWindow(int sayfaIndeksi) {
+
+        List<String> windowHandleList = new ArrayList<>(driver.getWindowHandles());
+        driver.switchTo().window(windowHandleList.get(sayfaIndeksi));
+
+    }
+
+
+ }

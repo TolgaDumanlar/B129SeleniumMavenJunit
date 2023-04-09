@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b04b29-64b6-47ba-a98d-e8c36721790a" name="Changes" comment="V1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day12_Windowhandel_BasicAuth/C01_WindowHandle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day10_alert_iframe/C01_AlertMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day10_alert_iframe/C01_AlertMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,55 +40,23 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C01_DropDownMenu">
-    <configuration name="C01_DropDownMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C01_WindowHandle">
+    <configuration name="C01_AlertMethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129SeleniumMavenJunit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day_03_practice.*" />
+          <option name="PATTERN" value="day10_alert_iframe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day_03_practice" />
-      <option name="MAIN_CLASS_NAME" value="day_03_practice.C01_DropDownMenu" />
+      <option name="PACKAGE_NAME" value="day10_alert_iframe" />
+      <option name="MAIN_CLASS_NAME" value="day10_alert_iframe.C01_AlertMethods" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_DropDownMenu.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129SeleniumMavenJunit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day_03_practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day_03_practice" />
-      <option name="MAIN_CLASS_NAME" value="day_03_practice.C01_DropDownMenu" />
-      <option name="METHOD_NAME" value="name" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_Alerts.sendKeysAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129SeleniumMavenJunit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day09_dropdown_alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day09_dropdown_alerts" />
-      <option name="MAIN_CLASS_NAME" value="day09_dropdown_alerts.C03_Alerts" />
-      <option name="METHOD_NAME" value="sendKeysAlert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_WindowHandle2.newWindowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_IFrame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129SeleniumMavenJunit" />
       <extension name="coverage">
         <pattern>
@@ -96,24 +65,54 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="day11_IFrame_WindowHandle" />
-      <option name="MAIN_CLASS_NAME" value="day11_IFrame_WindowHandle.C03_WindowHandle2" />
-      <option name="METHOD_NAME" value="newWindowTest" />
+      <option name="MAIN_CLASS_NAME" value="day11_IFrame_WindowHandle.C01_IFrame" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_WindowHandle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129SeleniumMavenJunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day12_Windowhandel_BasicAuth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day12_Windowhandel_BasicAuth" />
+      <option name="MAIN_CLASS_NAME" value="day12_Windowhandel_BasicAuth.C01_WindowHandle" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_WindowHandle.newTabTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129SeleniumMavenJunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day12_Windowhandel_BasicAuth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day12_Windowhandel_BasicAuth" />
+      <option name="MAIN_CLASS_NAME" value="day12_Windowhandel_BasicAuth.C01_WindowHandle" />
+      <option name="METHOD_NAME" value="newTabTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E03_Alerts.dismissAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_WindowHandle.newTabTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129SeleniumMavenJunit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09_01_04_cumartesi_dropdown_alerts.*" />
+          <option name="PATTERN" value="day12_Windowhandel_BasicAuth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day09_01_04_cumartesi_dropdown_alerts" />
-      <option name="MAIN_CLASS_NAME" value="day09_01_04_cumartesi_dropdown_alerts.E03_Alerts" />
-      <option name="METHOD_NAME" value="dismissAlert" />
+      <option name="PACKAGE_NAME" value="day12_Windowhandel_BasicAuth" />
+      <option name="MAIN_CLASS_NAME" value="day12_Windowhandel_BasicAuth.C01_WindowHandle" />
+      <option name="METHOD_NAME" value="newTabTest2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C01_DropDownMenu" />
-        <item itemvalue="JUnit.C01_DropDownMenu.name" />
-        <item itemvalue="JUnit.C03_WindowHandle2.newWindowTest" />
-        <item itemvalue="JUnit.C03_Alerts.sendKeysAlert" />
-        <item itemvalue="JUnit.E03_Alerts.dismissAlert" />
+        <item itemvalue="JUnit.C01_WindowHandle" />
+        <item itemvalue="JUnit.C01_IFrame" />
+        <item itemvalue="JUnit.C01_AlertMethods" />
+        <item itemvalue="JUnit.C01_WindowHandle.newTabTest" />
+        <item itemvalue="JUnit.C01_WindowHandle.newTabTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680689726161</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="V1">
+      <created>1680956213360</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680956213360</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

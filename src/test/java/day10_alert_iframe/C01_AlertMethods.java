@@ -41,11 +41,13 @@ public class C01_AlertMethods extends TestBase {
         //    tıklayın ve result mesajında isminizin görüntülendiğini doğrulayın.
         driver.findElement(By.cssSelector("button[onclick='jsPrompt()']")).click();
         bekle(4);
-        alertPrompt("Tolga");
+        alertPrompt("Erol");
         alertAccept();
         bekle(4);
         WebElement result = driver.findElement(By.cssSelector("p[id='result']"));
         Assert.assertTrue(result.getText().contains("Erol"));
         System.out.println(result.getText());
     }
+
+
 }

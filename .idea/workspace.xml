@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b04b29-64b6-47ba-a98d-e8c36721790a" name="Changes" comment="V1">
+      <change afterPath="$PROJECT_DIR$/src/test/java/day14_JavaFaker_FileExist/C01_Actions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day14_JavaFaker_FileExist/C02_JavaFaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day14_JavaFaker_FileExist/C03_FileExist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day14_JavaFaker_FileExist/C04_FileDownloadTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day10_alert_iframe/C01_AlertMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day10_alert_iframe/C01_AlertMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,33 +43,19 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C01_WindowHandle">
-    <configuration name="C01_AlertMethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C04_FileDownloadTest.fileDownloadTest">
+    <configuration name="C01_Actions.actionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129SeleniumMavenJunit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10_alert_iframe.*" />
+          <option name="PATTERN" value="day14_JavaFaker_FileExist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day10_alert_iframe" />
-      <option name="MAIN_CLASS_NAME" value="day10_alert_iframe.C01_AlertMethods" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_IFrame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129SeleniumMavenJunit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day11_IFrame_WindowHandle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day11_IFrame_WindowHandle" />
-      <option name="MAIN_CLASS_NAME" value="day11_IFrame_WindowHandle.C01_IFrame" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="day14_JavaFaker_FileExist" />
+      <option name="MAIN_CLASS_NAME" value="day14_JavaFaker_FileExist.C01_Actions" />
+      <option name="METHOD_NAME" value="actionsTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,33 +75,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_WindowHandle.newTabTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_JavaFaker.javaFakerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129SeleniumMavenJunit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day12_Windowhandel_BasicAuth.*" />
+          <option name="PATTERN" value="day14_JavaFaker_FileExist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day12_Windowhandel_BasicAuth" />
-      <option name="MAIN_CLASS_NAME" value="day12_Windowhandel_BasicAuth.C01_WindowHandle" />
-      <option name="METHOD_NAME" value="newTabTest" />
+      <option name="PACKAGE_NAME" value="day14_JavaFaker_FileExist" />
+      <option name="MAIN_CLASS_NAME" value="day14_JavaFaker_FileExist.C02_JavaFaker" />
+      <option name="METHOD_NAME" value="javaFakerTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_WindowHandle.newTabTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_FileExist.fileExistTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129SeleniumMavenJunit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day12_Windowhandel_BasicAuth.*" />
+          <option name="PATTERN" value="day14_JavaFaker_FileExist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day12_Windowhandel_BasicAuth" />
-      <option name="MAIN_CLASS_NAME" value="day12_Windowhandel_BasicAuth.C01_WindowHandle" />
-      <option name="METHOD_NAME" value="newTabTest2" />
+      <option name="PACKAGE_NAME" value="day14_JavaFaker_FileExist" />
+      <option name="MAIN_CLASS_NAME" value="day14_JavaFaker_FileExist.C03_FileExist" />
+      <option name="METHOD_NAME" value="fileExistTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_FileDownloadTest.fileDownloadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129SeleniumMavenJunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day14_JavaFaker_FileExist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day14_JavaFaker_FileExist" />
+      <option name="MAIN_CLASS_NAME" value="day14_JavaFaker_FileExist.C04_FileDownloadTest" />
+      <option name="METHOD_NAME" value="fileDownloadTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C04_FileDownloadTest.fileDownloadTest" />
+        <item itemvalue="JUnit.C03_FileExist.fileExistTest" />
+        <item itemvalue="JUnit.C02_JavaFaker.javaFakerTest" />
+        <item itemvalue="JUnit.C01_Actions.actionsTest" />
         <item itemvalue="JUnit.C01_WindowHandle" />
-        <item itemvalue="JUnit.C01_IFrame" />
-        <item itemvalue="JUnit.C01_AlertMethods" />
-        <item itemvalue="JUnit.C01_WindowHandle.newTabTest" />
-        <item itemvalue="JUnit.C01_WindowHandle.newTabTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680956213360</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="V1">
+      <created>1681056329232</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1681056329232</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

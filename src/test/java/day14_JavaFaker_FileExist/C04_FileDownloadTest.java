@@ -38,6 +38,3 @@ public class C04_FileDownloadTest extends TestBase {
 
 
 
-    }
-
-}

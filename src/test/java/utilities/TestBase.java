@@ -143,6 +143,18 @@ public abstract class TestBase {
             throw new RuntimeException(e);
         }
     }
+   //Bu method ile herhangi biir elemente JS Executer kullanarak tıklayabilirim.
+    public void clickByJS(WebElement element){
+        JavascriptExecutor jsExecuter = (JavascriptExecutor) driver;
+        jsExecuter.executeScript("arguments[0].click();",element);
+    }
+
+
+    public void scrolllIntoView(WebElement element){
+        JavascriptExecutor jse=(JavascriptExecutor) driver;//Casting
+        jse.executeScript("arguments[0].scrollIntoView(true);",element);
+
+    }
 
 }
 

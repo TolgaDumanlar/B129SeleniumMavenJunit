@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b04b29-64b6-47ba-a98d-e8c36721790a" name="Changes" comment="V1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day18_ScreenShot_ExtentReport/C01_ScreenShot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day18_ScreenShot_ExtentReport/C02_WebElementScreenShot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day18_ScreenShot_ExtentReport/C03_ScreenShotClassWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day19_WebTables_ReadExcel/C01_WebTables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day19_WebTables_ReadExcel/C02_ExcelRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day19_WebTables_ReadExcel/Capitals.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day19_WebTables/C02_ExcelWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day20_ReadExcel_WriteExcel/C01_ExcelRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day21_JSExecuter/C01_JSExecuter_Click.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day21_JSExecuter/C02_JSExecuter_Scroll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day19_WebTables_ReadExcel/C01_WebTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day19_WebTables/C01_WebTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day19_WebTables_ReadExcel/C02_ExcelRead.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day19_WebTables_ReadExcel/Capitals.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/Capitals.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,10 +49,27 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sony\IdeaProjects\B129SeleniumMavenJunit\src\test\java\resources" />
       <recent name="C:\Users\Sony\IdeaProjects\B129SeleniumMavenJunit\src\test\java\day19_WebTables_ReadExcel" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C02_ExplicitWait.explicitWaitTest">
+  <component name="RunManager" selected="JUnit.C01_JSExecuter_Click.clickByJSTest">
+    <configuration name="C01_ExcelRead.readExcelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129SeleniumMavenJunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day20_ReadExcel_WriteExcel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day20_ReadExcel_WriteExcel" />
+      <option name="MAIN_CLASS_NAME" value="day20_ReadExcel_WriteExcel.C01_ExcelRead" />
+      <option name="METHOD_NAME" value="readExcelTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C01_FileUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129SeleniumMavenJunit" />
       <extension name="coverage">
@@ -82,6 +101,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C01_JSExecuter_Click.clickByJSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129SeleniumMavenJunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day21_JSExecuter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day21_JSExecuter" />
+      <option name="MAIN_CLASS_NAME" value="day21_JSExecuter.C01_JSExecuter_Click" />
+      <option name="METHOD_NAME" value="clickByJSTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C02_ExplicitWait.explicitWaitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129SeleniumMavenJunit" />
       <extension name="coverage">
@@ -98,45 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_FileExist.fileExistTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129SeleniumMavenJunit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day14_JavaFaker_FileExist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day14_JavaFaker_FileExist" />
-      <option name="MAIN_CLASS_NAME" value="day14_JavaFaker_FileExist.C03_FileExist" />
-      <option name="METHOD_NAME" value="fileExistTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C04_FileDownloadTest.fileDownloadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129SeleniumMavenJunit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day14_JavaFaker_FileExist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day14_JavaFaker_FileExist" />
-      <option name="MAIN_CLASS_NAME" value="day14_JavaFaker_FileExist.C04_FileDownloadTest" />
-      <option name="METHOD_NAME" value="fileDownloadTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C01_JSExecuter_Click.clickByJSTest" />
+        <item itemvalue="JUnit.C01_ExcelRead.readExcelTest" />
         <item itemvalue="JUnit.C02_ExplicitWait.explicitWaitTest" />
         <item itemvalue="JUnit.C01_FileUpload" />
         <item itemvalue="JUnit.C01_FileUpload.fileUploadTest" />
-        <item itemvalue="JUnit.C04_FileDownloadTest.fileDownloadTest" />
-        <item itemvalue="JUnit.C03_FileExist.fileExistTest" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681381977650</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="V1">
+      <created>1681811364687</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1681811364687</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

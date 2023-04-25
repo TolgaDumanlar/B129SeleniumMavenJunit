@@ -143,16 +143,49 @@ public abstract class TestBase {
             throw new RuntimeException(e);
         }
     }
-   //Bu method ile herhangi biir elemente JS Executer kullanarak tıklayabilirim.
+    //Bu method ile herhangi bir elemente JS Executer kullanarak tıklayabilirim:
     public void clickByJS(WebElement element){
+
         JavascriptExecutor jsExecuter = (JavascriptExecutor) driver;
         jsExecuter.executeScript("arguments[0].click();",element);
+
     }
 
+    //Bu method ile herhangi bir elemente JS Executer kullanarak ekranı kaydırma yapabilirim:
+    public void scrollIntoView(WebElement element){
 
-    public void scrolllIntoView(WebElement element){
-        JavascriptExecutor jse=(JavascriptExecutor) driver;//Casting
-        jse.executeScript("arguments[0].scrollIntoView(true);",element);
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].scrollIntoView(true);",element);
+
+    }
+    //Bu method ile sayfayı en alta kaydırabilirim:
+    public void scrollEndJS(){
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
+    }
+
+    //Bu method ile sayfayı en üste kaydırabilirim:
+    public void scrollTopJS(){
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollTo(0,-document.body.scrollHeight)");
+    }
+    //Bu method sendKeys() methodunun alternatifidir.
+    public void typeWithJS(WebElement element, String text){
+
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].setAttribute('value','"+text+"')",element);
+
+    }
+
+    //Bu method ile attribute değerlerini alabilirim:
+    public void getValueByJS(String id, String attributeName) {
+
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        String attribute_Value = js.executeScript("return document.getElementById('" + id + "')." + attributeName).toString();
+        System.out.println("Attribute Value: = " + attribute_Value);
+//        NOT: document.querySelector("p").value;  -> TAG KULLANILABILIR
+//             document.querySelector(".example").value; -> CSS DEGERI KULLANILABILIR
+//             document.querySelector("#example").value; -> CSS DEGERI KULLANILABILIR
 
     }
 

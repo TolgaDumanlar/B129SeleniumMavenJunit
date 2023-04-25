@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b04b29-64b6-47ba-a98d-e8c36721790a" name="Changes" comment="V1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day19_WebTables/C02_ExcelWrite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day20_ReadExcel_WriteExcel/C01_ExcelRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day21_JSExecuter/C01_JSExecuter_Click.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day21_JSExecuter/C02_JSExecuter_Scroll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day21_JSExecuter/C03_JSExecuter_Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day22_Log4J/C01_Log4J.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day19_WebTables_ReadExcel/C01_WebTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day19_WebTables/C01_WebTables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day19_WebTables_ReadExcel/C02_ExcelRead.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day19_WebTables_ReadExcel/Capitals.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/Capitals.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day21_JSExecuter/C01_JSExecuter_Click.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day21_JSExecuter/C01_JSExecuter_Click.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day21_JSExecuter/C02_JSExecuter_Scroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day21_JSExecuter/C02_JSExecuter_Scroll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +50,7 @@
       <recent name="C:\Users\Sony\IdeaProjects\B129SeleniumMavenJunit\src\test\java\day19_WebTables_ReadExcel" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C01_JSExecuter_Click.clickByJSTest">
+  <component name="RunManager" selected="JUnit.C02_JSExecuter_Scroll.jSExecuterScrollTest">
     <configuration name="C01_ExcelRead.readExcelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129SeleniumMavenJunit" />
       <extension name="coverage">
@@ -81,22 +78,6 @@
       <option name="PACKAGE_NAME" value="day15_FileUpload_Waits" />
       <option name="MAIN_CLASS_NAME" value="day15_FileUpload_Waits.C01_FileUpload" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_FileUpload.fileUploadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129SeleniumMavenJunit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day15_FileUpload_Waits.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day15_FileUpload_Waits" />
-      <option name="MAIN_CLASS_NAME" value="day15_FileUpload_Waits.C01_FileUpload" />
-      <option name="METHOD_NAME" value="fileUploadTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,13 +114,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C02_JSExecuter_Scroll.jSExecuterScrollTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129SeleniumMavenJunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day21_JSExecuter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day21_JSExecuter" />
+      <option name="MAIN_CLASS_NAME" value="day21_JSExecuter.C02_JSExecuter_Scroll" />
+      <option name="METHOD_NAME" value="jSExecuterScrollTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C02_JSExecuter_Scroll.jSExecuterScrollTest" />
         <item itemvalue="JUnit.C01_JSExecuter_Click.clickByJSTest" />
         <item itemvalue="JUnit.C01_ExcelRead.readExcelTest" />
         <item itemvalue="JUnit.C02_ExplicitWait.explicitWaitTest" />
         <item itemvalue="JUnit.C01_FileUpload" />
-        <item itemvalue="JUnit.C01_FileUpload.fileUploadTest" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681811364687</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="V1">
+      <created>1682328065116</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1682328065116</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

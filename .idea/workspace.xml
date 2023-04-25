@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b04b29-64b6-47ba-a98d-e8c36721790a" name="Changes" comment="V1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day21_JSExecuter/C03_JSExecuter_Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day22_Log4J/C01_Log4J.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day21_JSExecuter/C01_JSExecuter_Click.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day21_JSExecuter/C01_JSExecuter_Click.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day21_JSExecuter/C02_JSExecuter_Scroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day21_JSExecuter/C02_JSExecuter_Scroll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day22_Log4J/C01_Log4J.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day22_Log4J/C01_Log4J.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +46,7 @@
       <recent name="C:\Users\Sony\IdeaProjects\B129SeleniumMavenJunit\src\test\java\day19_WebTables_ReadExcel" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C02_JSExecuter_Scroll.jSExecuterScrollTest">
+  <component name="RunManager" selected="JUnit.C01_Log4J.log4JTest">
     <configuration name="C01_ExcelRead.readExcelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129SeleniumMavenJunit" />
       <extension name="coverage">
@@ -63,21 +59,6 @@
       <option name="MAIN_CLASS_NAME" value="day20_ReadExcel_WriteExcel.C01_ExcelRead" />
       <option name="METHOD_NAME" value="readExcelTest" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_FileUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129SeleniumMavenJunit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day15_FileUpload_Waits.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day15_FileUpload_Waits" />
-      <option name="MAIN_CLASS_NAME" value="day15_FileUpload_Waits.C01_FileUpload" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,17 +79,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_ExplicitWait.explicitWaitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_Log4J" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129SeleniumMavenJunit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day15_FileUpload_Waits.*" />
+          <option name="PATTERN" value="day22_Log4J.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day15_FileUpload_Waits" />
-      <option name="MAIN_CLASS_NAME" value="day15_FileUpload_Waits.C02_ExplicitWait" />
-      <option name="METHOD_NAME" value="explicitWaitTest" />
+      <option name="PACKAGE_NAME" value="day22_Log4J" />
+      <option name="MAIN_CLASS_NAME" value="day22_Log4J.C01_Log4J" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_Log4J.log4JTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129SeleniumMavenJunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day22_Log4J.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day22_Log4J" />
+      <option name="MAIN_CLASS_NAME" value="day22_Log4J.C01_Log4J" />
+      <option name="METHOD_NAME" value="log4JTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C01_Log4J.log4JTest" />
+        <item itemvalue="JUnit.C01_Log4J" />
         <item itemvalue="JUnit.C02_JSExecuter_Scroll.jSExecuterScrollTest" />
         <item itemvalue="JUnit.C01_JSExecuter_Click.clickByJSTest" />
         <item itemvalue="JUnit.C01_ExcelRead.readExcelTest" />
-        <item itemvalue="JUnit.C02_ExplicitWait.explicitWaitTest" />
-        <item itemvalue="JUnit.C01_FileUpload" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +306,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682328065116</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="V1">
+      <created>1682410642690</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1682410642692</updated>
+    </task>
+    <task id="LOCAL-00025" summary="V1">
+      <created>1682410752339</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1682410752339</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

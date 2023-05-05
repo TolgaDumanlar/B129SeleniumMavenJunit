@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b04b29-64b6-47ba-a98d-e8c36721790a" name="Changes" comment="V1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SSG/SSG_FileExists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SSG/SSG_JSExecutorTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SSG/SSG_JSExecutorTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SSG/SSG_ExtentReports.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit3 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,18 +55,18 @@
       <recent name="SSG" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SSG_FileExists.fileExistsTest1">
-    <configuration name="C01_Log4J.log4JTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SSG_ExtentReports.extentReportsTest">
+    <configuration name="SSG_ExtentReports.extentReportsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129SeleniumMavenJunit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day22_Log4J.*" />
+          <option name="PATTERN" value="SSG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day22_Log4J" />
-      <option name="MAIN_CLASS_NAME" value="day22_Log4J.C01_Log4J" />
-      <option name="METHOD_NAME" value="log4JTest" />
+      <option name="PACKAGE_NAME" value="SSG" />
+      <option name="MAIN_CLASS_NAME" value="SSG.SSG_ExtentReports" />
+      <option name="METHOD_NAME" value="extentReportsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SSG_ExtentReports.extentReportsTest" />
         <item itemvalue="JUnit.SSG_FileExists.fileExistsTest1" />
         <item itemvalue="JUnit.SSG_FileExistsTest.fileExistTest" />
         <item itemvalue="JUnit.SSG_JScriptExecutorTest2.name" />
         <item itemvalue="JUnit.SSG_JSExecutorTest1.js_executorTest" />
-        <item itemvalue="JUnit.C01_Log4J.log4JTest" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682531704356</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="V1">
+      <created>1683304206461</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1683304206461</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

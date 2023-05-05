@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32b04b29-64b6-47ba-a98d-e8c36721790a" name="Changes" comment="V1" />
+    <list default="true" id="32b04b29-64b6-47ba-a98d-e8c36721790a" name="Changes" comment="V1">
+      <change afterPath="$PROJECT_DIR$/src/test/java/SSG/SSG_FileExists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SSG/SSG_JSExecutorTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SSG/SSG_JSExecutorTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit3 Test Class" />
       </list>
     </option>
   </component>
@@ -29,67 +35,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sony\IdeaProjects\B129SeleniumMavenJunit\src\test\java\resources" />
       <recent name="C:\Users\Sony\IdeaProjects\B129SeleniumMavenJunit\src\test\java\day19_WebTables_ReadExcel" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="SSG" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.C01_Log4J.log4JTest">
-    <configuration name="C01_ExcelRead.readExcelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129SeleniumMavenJunit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day20_ReadExcel_WriteExcel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day20_ReadExcel_WriteExcel" />
-      <option name="MAIN_CLASS_NAME" value="day20_ReadExcel_WriteExcel.C01_ExcelRead" />
-      <option name="METHOD_NAME" value="readExcelTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_JSExecuter_Click.clickByJSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129SeleniumMavenJunit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day21_JSExecuter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day21_JSExecuter" />
-      <option name="MAIN_CLASS_NAME" value="day21_JSExecuter.C01_JSExecuter_Click" />
-      <option name="METHOD_NAME" value="clickByJSTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_Log4J" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129SeleniumMavenJunit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day22_Log4J.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day22_Log4J" />
-      <option name="MAIN_CLASS_NAME" value="day22_Log4J.C01_Log4J" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SSG_FileExists.fileExistsTest1">
     <configuration name="C01_Log4J.log4JTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129SeleniumMavenJunit" />
       <extension name="coverage">
@@ -106,17 +73,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_JSExecuter_Scroll.jSExecuterScrollTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SSG_FileExistsTest.fileExistTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129SeleniumMavenJunit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day21_JSExecuter.*" />
+          <option name="PATTERN" value="SSG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SSG" />
+      <option name="MAIN_CLASS_NAME" value="SSG.SSG_FileExistsTest" />
+      <option name="METHOD_NAME" value="fileExistTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SSG_FileExists.fileExistsTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129SeleniumMavenJunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SSG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SSG" />
+      <option name="MAIN_CLASS_NAME" value="SSG.SSG_FileExists" />
+      <option name="METHOD_NAME" value="fileExistsTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SSG_JSExecutorTest1.js_executorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129SeleniumMavenJunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SSG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SSG" />
+      <option name="MAIN_CLASS_NAME" value="SSG.SSG_JSExecutorTest1" />
+      <option name="METHOD_NAME" value="js_executorTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SSG_JScriptExecutorTest2.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129SeleniumMavenJunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SSG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="day21_JSExecuter" />
-      <option name="MAIN_CLASS_NAME" value="day21_JSExecuter.C02_JSExecuter_Scroll" />
-      <option name="METHOD_NAME" value="jSExecuterScrollTest" />
+      <option name="MAIN_CLASS_NAME" value="day21_JSExecuter.SSG_JScriptExecutorTest2" />
+      <option name="METHOD_NAME" value="name" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SSG_FileExists.fileExistsTest1" />
+        <item itemvalue="JUnit.SSG_FileExistsTest.fileExistTest" />
+        <item itemvalue="JUnit.SSG_JScriptExecutorTest2.name" />
+        <item itemvalue="JUnit.SSG_JSExecutorTest1.js_executorTest" />
         <item itemvalue="JUnit.C01_Log4J.log4JTest" />
-        <item itemvalue="JUnit.C01_Log4J" />
-        <item itemvalue="JUnit.C02_JSExecuter_Scroll.jSExecuterScrollTest" />
-        <item itemvalue="JUnit.C01_JSExecuter_Click.clickByJSTest" />
-        <item itemvalue="JUnit.C01_ExcelRead.readExcelTest" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682414025259</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="V1">
+      <created>1682531704356</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1682531704356</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
